@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$colors: (
+    gold: #bca64d,
+    dark: #103341,
+    desktopBackground: #ededed,
+);
+
+$mobileFont: (
+    family: 'Montserrat',
+    headersection: (
+        large: 30px,
+        small: 14px,
+        play: 18px,
+        shop: 18px,
+    ),
+    mainPanels: (
+        medium: 20px,
+        small: 12px,
+        icon: #b0b0b0,
+    ),
+    invertedPanel: (
+        medium: 20px,
+        mediumlight: 14px,
+        small: 11px,
+    ),
+    closing: (
+        medium: 22px,
+        mediumLight: 22px,
+        button: 18px,
+        small: 11px,
+    ),
+    footer: (
+        input: 14px,
+        submit: 14px,
+        links: 12px,
+    ),
+);
+
 header {
     background: url("../media/fog-landscape.jpg") no-repeat center center fixed;
     background-size: cover;
