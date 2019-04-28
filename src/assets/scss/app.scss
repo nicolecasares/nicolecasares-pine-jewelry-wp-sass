@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
 
 $colors: (
     gold: #bca64d,
     dark: #103341,
     desktopBackground: #ededed,
+);
+
+$fontWeights: (
+    light: 300,
+    regular: 400,
+    bold: 600,
 );
 
 $mobileFont: (
@@ -34,6 +40,38 @@ $mobileFont: (
         input: 14px,
         submit: 14px,
         links: 12px,
+    ),
+);
+
+$desktopFont: (
+    family: 'Montserrat',
+    headersection: (
+        large: 65px,
+        small: 22px,
+        play: 18px,
+        shop: 18px,
+    ),
+    mainPanels: (
+        medium: 40px,
+        small: 25px,
+        icon: #b0b0b0,
+    ),
+    invertedPanel: (
+        medium: 40px,
+        mediumlight: 50px,
+        small: 11px,
+    ),
+    closing: (
+        medium: 35px,
+        mediumLight: 50px,
+        button: 14px,
+        small: 20px,
+    ),
+    footer: (
+        medium: 30px,
+        input: 14px,
+        submit: 14px,
+        links: 14px,
     ),
 );
 
