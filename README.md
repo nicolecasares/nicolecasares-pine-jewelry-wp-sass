@@ -19,7 +19,5 @@
 * uglify-js-plugin
 
 
-# pine-jewelry-wp-sass
-# test-
-# test-
+
 # nicolecasares-pine-jewelry-wp-sass
